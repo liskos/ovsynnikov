@@ -1,6 +1,7 @@
-x = 4** 14 + 64 ** 16 - 81
-s = ""
-while x > 0:
-    s = str(x % 4) + s
-    x //= 4
-print(s.count("3"))
+d = int(input())
+n = 8
+s = 6
+while s <= 1800:
+    s = s + d
+    n = n + 7
+print(n)
