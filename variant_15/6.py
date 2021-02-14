@@ -7,7 +7,5 @@ def f(d):
     return n
 
 
-for i in range(1, 10000):
-    if f(i) == 50:
-        print(i)
-        break
+for i in range(10000, 1, -1):
+    print(i, f(i))
