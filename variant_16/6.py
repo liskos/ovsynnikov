@@ -6,7 +6,8 @@ def f(d):
         n = n - 20
     return n
 
-
-for i in range(10000, 1, -1):
+k = 0
+for i in range(1, 10000):
     if f(i) > 0:
-        print(i)
+        k += 1
+        print(k)
