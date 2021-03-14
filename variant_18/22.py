@@ -6,15 +6,11 @@ def f(x):
             a = a + 1
         else:
             b = b + 1
-            x = x // 10
+        x = x // 10
     return a, b
 
 
-
-
-
-for i in range(100, 100000):
+for i in range(100, 1000000000):
     a, b = f(i)
-    if a == 1 and  b == -4:
+    if a == 1 and  b == 4:
         print(i)
-        break
