@@ -9,7 +9,7 @@ def f(x):
 
 
 
-for i in range(100, 39, -1):
+for i in range(1, 100000):
     a, b = f(i)
-    if a == 3 and b == 24:
+    if a == 4 and b == 24:
         print(i)
