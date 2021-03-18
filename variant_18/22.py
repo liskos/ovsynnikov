@@ -12,5 +12,5 @@ def f(x):
 
 for i in range(100, 1000000000):
     a, b = f(i)
-    if a == 1 and  b == 4:
+    if a == 1 and b == 4:
         print(i)
