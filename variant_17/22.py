@@ -11,8 +11,7 @@ def f(x):
 
 
 for i in range( 51, 1000):
-    if f(i) == 82:
-        print(i)
+
 
 
 
