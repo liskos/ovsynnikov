@@ -4,4 +4,4 @@ for x in 0, 1:
             for w in 0, 1:
                 f = not x and y and z or x and not y and not w
                 if f:
-                    print(y, w, z, x,  int(f))
+                    print(z, w, y, x,  int(f))
